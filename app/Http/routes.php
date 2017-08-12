@@ -21,7 +21,11 @@ Route::get('/fuckyou', function () {
 Route:: get('/hello',function(){
    return  view('admin.hello');
 });
+//静态页面
+Route::get('/','StaticPagesController@home')->name('home');
+Route::get('/help','StaticPagesController@help')->name('help');
+Route::get('/about','StaticPagesController@about')->name('about');
+//用户注册
+Route::get('signup','UserController@create')->name('signup');
 
-Route::get('/','StaticPagesController@home');
-Route::get('/help','StaticPagesController@help');
-Route::get('/about','StaticPagesController@about');
+//Route::get('/home1','StaticPagesController@home1')->name('home');

@@ -7,23 +7,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-class StaticPagesController extends Controller
+class UserController extends Controller
 {
-
-    public function home(){
-       return view('static_pages/home');
-    }
-
-    public function help(){
-        return view('static_pages/help');
-    }
-    public function about(){
-       return view('static_pages/about');
-    }
-    public function home1(){
-       return view('home/home');
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -41,6 +26,7 @@ class StaticPagesController extends Controller
      */
     public function create()
     {
+      return view('users.create');
         //
     }
 

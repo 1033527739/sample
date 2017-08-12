@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+body{margin:0 ;background:#ededef;background:url(../../../Public/Home/img/7.jpg);
+background-size:100%;background-repeat:no-repeat;
+font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";}
+*{margin:0; padding:0;}
+a{text-decoration:none;}
+input{border:0px;background:#fff;}
+ul{list-style-type:none;}
+
+/*背景落款*/
+#background_info{color:#eee;font-size:15px;margin:10px 0 0 1200px;
+font-family: "Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";font-weight:normal;}
+
+/*头部*/
+#top{ height:700px; }
+
+/*背景*/
+#logo{width:400px;height:100px;margin:10px auto;}
+#logo h1{text-align:center;margin:170px 0 0 0;font-size:48px;color:#fff;
+font-family: "Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";font-weight:normal;}
+#logo h3{text-align:center;font-size:20px;color:#fff;
+font-family: "Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";font-weight:normal;}
+
+/*注册登录*/
+#login_reg{width:460px;height:350px;margin:0 auto}
+#login_reg li{float:left;width:230px;height:50px;}
+
+#login{width:460px;height:230px;float:left;margin:0px 0 0 0;background:#fff;box-shadow:1px 1px 1px #888;}
+#reg{width:460px;height:230px;float:left;margin:0px 0 0 0;background:#fff;}
+
+#reg{display:none;}
+
+#login_li{background:#fff;cursor:pointer;}
+#reg_li{background:#444;opacity:0.5;cursor:pointer;}
+
+#reg_li a{color:#fff;font-size:18px;width:50px;display:block;margin:10px 0 0 90px;
+font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";}
+#login_li a{color:black;font-size:18px;width:50px;display:block;margin:10px 0 0 90px;
+font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";}
+
+/*登录*/
+#checkbox{width:14px;height:14px;background:#fff;color:#fff;
+margin:3px 0 0 0;cursor:pointer;opacity:1;}
+#forget_pw{margin:5px 0 0 35px;width:250px;height:20px;}
+#login span{color:#888;font-size:14px;;}
+#login a{color:#888; font-size:14px;}
+#savelogin{margin:0;padding:0 0 0 5px;}
+#login_user{width:230px;height:32px; margin:20px 0 0 35px;
+border:1px  solid #888;border-radius:1px;}
+#login_pw{ width:230px;height:32px; margin:0 0 0 35px;
+border-left:1px  solid #888;border-right:1px  solid  #888;border-bottom:1px solid #888;border-radius:1px;}
+
+/*登录验证码*/
+#login_vcode{width:232px;height:50px;margin:5px 0 0 35px;}
+#login_vcode img{width:135px;height:50px;float:float;cursor:pointer;}
+#login_verify{width:75px;height:30px;float:right;border:1px solid #888;border-radius:1px;
+margin:10px 0 0 0;}
+
+/*登录按钮*/
+#login_btn{width:232px;height:32px;color:#fff;font-size:18px;margin:15px 0 0 35px;
+background:#8eb900;cursor:pointer;border-radius:3px;}
+
+/*注册*/
+#reg_user{width:230px;height:32px;margin:20px 0 0 35px;border:1px  solid  #888;border-radius:1px;}
+#reg_pw{width:230px;height:32px; margin:0 0 0 35px;
+border-left:1px  solid #888;border-right:1px  solid  #888;border-bottom:1px  solid #888;border-radius:1px;}
+
+/*注册验证码*/
+#reg_vcode{width:232px;height:50px;margin:5px 0 0 35px;}
+#reg_vcode img{width:135px;height:50px;float:float;cursor:pointer;}
+#reg_verify{width:75px;height:30px;float:right;border:1px solid #888;margin:10px 0 0 0;}
+
+/*注册按钮*/
+#reg_btn{width:232px;height:32px;color:#fff;font-size:18px;margin:0 0 0 35px;
+border-radius:3px;background:#8eb900;cursor:pointer;}
+
+/*登录验证*/
+#login ul {color:red; font-size:14px;width:300px;height:10px;padding:0 0 0 35px;margin:6px 0 0 0;}
+#login ul li{height:15px;margin:3px 0 0 0;}
+#login_ajax{color:red; font-size:14px;padding:0 0 0 35px;margin:6px 0 0 0;width:300px;}
+
+/*注册验证*/
+#reg ul {color:red; font-size:14px;width:300px;height:10px;padding:0 0 0 35px;margin:6px 0 0 0;}
+#reg ul li{height:15px;margin:3px 0 0 0;}
+#reg_ajax{color:red; font-size:14px;padding:0 0 0 35px;margin:6px 0 0 0;width:300px;}
+
+/*底部*/
+#foot{ height:100px; background-color:#fff;}
+#foot a{color:white; font-size:15px; }
+#address{ float:left; width:100%;margin:20px 0  0 100px;}
+#address ul{color:white;}
+#address li{margin:10px;}
+p{color:white;text-align:center;}
+#copyright{float:left;width:100%;margin:20px auto 0 auto;}

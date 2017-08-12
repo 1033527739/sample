@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+body{margin:0 0;background:#ededef;}
+*{margin:0; padding:0;}
+a{text-decoration:none;}
+input{border:0px;}
+
+
+/*头部*/
+#top{ height:100px; background-color:#3a3a3a;
+border-bottom:1px #dcdcdc solid;}
+
+#logo{float:left;width:300px;font-size:50px;color:white;font-family:Hiragino Sans GB;}
+#logo_font{width:200px;margin:25px 0 0 200px;font-weight:normal;}
+
+#first_nav{float:left;width:370px;height:40px;margin:60px 0 0 150px;}
+#first_nav ul{list-style-type:none;}
+.nav{float:left;width:80px;height:40px;font-size:18px;}
+#dis{margin-left:30px;}
+.nav a{color:#dcdcdc;}
+#homepage a{color:#fff;}
+
+
+#search{float:left;width:400px;height:50px;margin:50px 0 0 10px;}
+#input{width:250px;height:27px;}
+#search_btn{width:50px;height:30px;background-color:#fff;padding:0 0 0 5px;margin:0 0 0 10px}
+
+
+/* 中间*/
+#main{ height:700px; width:75%;background-color:#ededef;border:0px #dcdcdc solid;
+margin:18px auto 18px auto;
+}
+
+
+
+/*左边*/
+/*导航*/
+#left{height:580px;width:630px;float:left;margin:20px 0 0 60px;}
+#nav{height:100px; width:100%;background:#fff;box-shadow:1px 1px 2px #888;
+margin:0 0 0px 0;}
+#user_img{float:left;width:100px;height:100px;}
+#hot{float:left;width:100px;height:100px;margin:0 0 0 30px;}
+#recruit{float:left;width:100px;height:100px;margin:0 0 0 30px;}
+#discuss{float:left;width:100px;height:100px;margin:0 0 0 30px;}
+
+/*动态*/
+#user_news{height:150px;width:530px;background:#f9f9f9;
+box-shadow:1px 1px 2px #888;margin:20px 0  0  100px;}
+
+.hot_study{height:200px;width:630px;background:#fff;margin:35px 0 0 0;box-shadow:1px 1px 2px #888;}
+/*右边*/
+#right{height:580px;width:210px;float:right;margin:20px 60px 0 0;}
+#user_info ul{list-style-type:none;width:100%;height:250px;}
+#reg_info{height:50px;width:100%;background:#f3f3f3;box-shadow:1px 1px 3px #888;margin:0 0 2px 0;}
+#foucs{height:40px;width:100%;background:#f3f3f3;box-shadow:1px 1px 1px #888;border-bottom:1px solid #dcdcdc;}
+#notice{height:40px;width:100%;background:#f3f3f3;box-shadow:1px 1px 1px #888;border-bottom:1px solid #dcdcdc;}
+#private{height:40px;width:100%;background:#f3f3f3;box-shadow:1px 1px 1px #888;}
+
+
+
+
+/*底部*/
+#foot{ height:100px; background-color:#dcdcdc;border-top:1px solid #dcdcdc;
+}
+#foot a{color:white; font-size:15px; }
+#address{ float:left; width:100%;margin:20px 0  0 100px;}
+#address ul{color:white;}
+#address li{margin:10px;}
+p{color:white;text-align:center;}
+#copyright{float:left;width:100%;margin:20px auto 0 auto;   }
+
+/*对话框*/
+#reg input{width:200px;}
