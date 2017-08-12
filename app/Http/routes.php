@@ -21,3 +21,7 @@ Route::get('/fuckyou', function () {
 Route:: get('/hello',function(){
    return  view('admin.hello');
 });
+
+Route::get('/','StaticPagesController@home');
+Route::get('/help','StaticPagesController@help');
+Route::get('/about','StaticPagesController@about');
